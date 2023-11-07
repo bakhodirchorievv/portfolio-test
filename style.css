@@ -21,14 +21,11 @@ html{
     list-style: none;
 }
 .link{
-text-decoration: none;
-color:black;
-}
-.link{
     font-family: "Open Sans";
     font-weight: 700;
     font-size: 1.4rem;
     color: #333;
+    text-decoration: none;
 }
 .link:hover{
     color: white;
@@ -149,4 +146,23 @@ color: white;
 }
 .svg-2:hover{
 fill: white;
+}
+.year-and-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #333;
+    gap: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.year-and-name:hover{
+    color: white;
+}
+.footer-github{
+    width: 25px;
+    height: 25px;
 }
